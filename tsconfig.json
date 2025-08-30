@@ -7,7 +7,6 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "skipLibCheck": true,
-    "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "assumeChangesOnlyAffectDirectDependencies": true,
@@ -15,7 +14,9 @@
     "noImplicitAny": false,
     "composite": true,
     "allowImportingTsExtensions": true,
-    "rootDir": "."
+    "rewriteRelativeImportExtensions": true,
+    "rootDir": ".",
+    "outDir": ".tmp/tsc-dist"
   },
   "include": ["src", "test"]
 }
