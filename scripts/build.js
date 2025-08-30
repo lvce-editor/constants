@@ -69,7 +69,7 @@ delete packageJson.prettier
 delete packageJson.jest
 packageJson.version = version
 packageJson.main = 'dist/index.js'
-// packageJson.types = 'dist/index.d.ts'
+packageJson.types = 'dist/index.d.ts'
 
 await writeJson(join(dist, 'package.json'), packageJson)
 
