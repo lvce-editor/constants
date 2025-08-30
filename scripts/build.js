@@ -1,11 +1,10 @@
-import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises'
-import path, { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { execa } from 'execa'
+import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises'
+import { join } from 'node:path'
+import { generateApiTypes } from './generateApiTypes.js'
+import { root } from './root.js'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-const root = path.join(__dirname, '..')
-const dist = join(root, 'dist')
+const dist = join(root, '.tmp', 'dist')
 
 const readJson = async (path) => {
   const content = await readFile(path, 'utf8')
@@ -60,8 +59,6 @@ const getVersion = async () => {
 await rm(dist, { recursive: true, force: true })
 await mkdir(dist, { recursive: true })
 
-await execa(`npx`, ['rollup', '-c'])
-
 const version = await getVersion()
 
 const packageJson = await readJson(join(root, 'package.json'))
@@ -76,9 +73,20 @@ packageJson.main = 'dist/index.js'
 
 await writeJson(join(dist, 'package.json'), packageJson)
 
-// await cp(join(root, 'src', 'index.d.ts'), join(dist, 'dist', 'index.d.ts'), {
-//   recursive: true,
-// })
+await execa(`npx`, ['tsc', '-b'])
+
+await cp(
+  join(root, '.tmp', 'tsc-dist', 'src'),
+  join(root, '.tmp', 'dist', 'dist'),
+  {
+    recursive: true,
+  },
+)
+const dirents = await readdir(join(root, '.tmp', 'dist'), { recursive: true })
+const toRemove = dirents.filter((dirent) => dirent.endsWith('.d.ts'))
+await Promise.all(toRemove.map((item) => rm(join(root, '.tmp', 'dist', item))))
 
 await cp(join(root, 'README.md'), join(dist, 'README.md'))
 await cp(join(root, 'LICENSE'), join(dist, 'LICENSE'))
+
+await generateApiTypes()
