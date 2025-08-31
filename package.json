@@ -4,6 +4,7 @@
   "description": "Constants",
   "license": "MIT",
   "author": "Lvce Editor",
+  "sideEffects": false,
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.d.ts",
