@@ -1,0 +1,7 @@
+export const EditorHover = 'EditorHover'
+export const EditorCodeGenerator = 'EditorCodeGenerator'
+export const EditorCompletionDetails = 'EditorCompletionDetails'
+export const EditorCompletion = 'EditorCompletion'
+export const FindWidget = 'FindWidget'
+export const EditorRename = 'EditorRename'
+export const EditorSourceActions = 'EditorSourceActions'
