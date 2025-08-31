@@ -1,4 +1,6 @@
 export const FocusElementByName = 'Viewlet.focusElementByName'
-export const SetFocusContext = 'Viewlet.setFocusContext'
 export const FocusSelector = 'Viewlet.focusSelector'
+export const SetCss = 'Viewlet.setCss'
 export const SetDom2 = 'Viewlet.setDom2'
+export const SetFocusContext = 'Viewlet.setFocusContext'
+export const SetProperty = 'Viewlet.setProperty'
