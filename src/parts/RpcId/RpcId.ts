@@ -24,3 +24,6 @@ export const SourceActionWorker = 303
 export const SourceControlWorker = 66
 export const SyntaxHighlightingWorker = 3309
 export const TestWorker = 9001
+export const FindWidgetWorker = 9002
+export const HoverWorker = 9003
+export const RenameWorker = 9004
