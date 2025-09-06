@@ -27,3 +27,5 @@ export const TestWorker = 9001
 export const FindWidgetWorker = 9002
 export const HoverWorker = 9003
 export const RenameWorker = 9004
+export const TestWithPlaywrightCli = 6000
+export const TestWithPlaywrightWorker = 6001
