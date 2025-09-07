@@ -1,5 +1,6 @@
 export * as AriaRoles from '../AriaRoles/AriaRoles.ts'
 export * as ClassNames from '../ClassNames/ClassNames.ts'
+export * as DirentType from '../DirentType/DirentType.ts'
 export * as EditOrigin from '../EditOrigin/EditOrigin.ts'
 export * as ElementTagMap from '../ElementTagMap/ElementTagMap.ts'
 export * as ElementTags from '../ElementTags/ElementTags.ts'
