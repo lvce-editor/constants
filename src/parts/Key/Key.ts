@@ -1,6 +1,7 @@
 export const Backspace = 'Backspace'
 export const Tab = 'Tab'
 export const Space = ' '
+export const Space2 = 'Space'
 export const Enter = 'Enter'
 export const Escape = 'Escape'
 export const PageUp = 'PageUp'

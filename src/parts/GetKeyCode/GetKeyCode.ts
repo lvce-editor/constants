@@ -12,6 +12,7 @@ export const getKeyCode = (key: string): number => {
     case Key.Enter:
       return KeyCode.Enter
     case Key.Space:
+    case Key.Space2:
       return KeyCode.Space
     case Key.PageUp:
       return KeyCode.PageUp
