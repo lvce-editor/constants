@@ -30,3 +30,4 @@ export const RenameWorker = 9004
 export const TestWithPlaywrightCli = 6000
 export const TestWithPlaywrightWorker = 6001
 export const IconThemeWorker = 7009
+export const TextSearchWorker = 7010
