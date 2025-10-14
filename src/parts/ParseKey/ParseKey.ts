@@ -1,6 +1,6 @@
-import * as KeyModifier from '../KeyModifier/KeyModifier.ts'
 import type { ParsedKey } from '../ParsedKey/ParsedKey.ts'
 import * as GetKeyCodeString from '../GetKeyCodeString/GetKeyCodeString.ts'
+import * as KeyModifier from '../KeyModifier/KeyModifier.ts'
 
 export const parseKey = (rawKey: number): ParsedKey => {
   const isCtrl = Boolean(rawKey & KeyModifier.CtrlCmd)
