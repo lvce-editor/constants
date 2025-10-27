@@ -1,3 +1,4 @@
+export * as ActivityBarItemFlags from '../ActivityBarItemFlags/ActivityBarItemFlags.ts'
 export * as AriaRoles from '../AriaRoles/AriaRoles.ts'
 export * as ClassNames from '../ClassNames/ClassNames.ts'
 export * as DirentType from '../DirentType/DirentType.ts'
