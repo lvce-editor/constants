@@ -2,6 +2,10 @@
   "name": "@lvce-editor/constants",
   "version": "0.0.0-dev",
   "description": "Constants",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvce-editor/constants.git"
+  },
   "license": "MIT",
   "author": "Lvce Editor",
   "sideEffects": false,
