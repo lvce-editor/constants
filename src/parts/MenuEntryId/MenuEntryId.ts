@@ -55,3 +55,5 @@ export const E2eTests = 27
 export const ExtensionDetailIconContextMenu = 4091
 
 export const TitleBarContextMenu = 90
+
+export const InputContextMenu = 91
