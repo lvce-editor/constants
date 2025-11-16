@@ -57,3 +57,5 @@ export const ExtensionDetailIconContextMenu = 4091
 export const TitleBarContextMenu = 90
 
 export const InputContextMenu = 91
+
+export const SearchMatchContextMenu = 93
