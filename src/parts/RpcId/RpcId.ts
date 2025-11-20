@@ -31,3 +31,4 @@ export const TestWithPlaywrightCli = 6000
 export const TestWithPlaywrightWorker = 6001
 export const IconThemeWorker = 7009
 export const TextSearchWorker = 7010
+export const TextMeasurementWorker = 7011
