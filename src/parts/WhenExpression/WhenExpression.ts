@@ -59,4 +59,4 @@ export const FocusTitleBarMenuBar = 26
 export const FocusToggleDetails = 1010
 export const FocusToggleReplace = 1020
 export const FocusViewletList = 27
-export const FocusSourceControlList = 45
+export const FocusSourceControlList = 450
