@@ -7,6 +7,10 @@ test('Backspace', () => {
   expect(GetKeyCode.getKeyCode(Key.Backspace)).toBe(KeyCode.Backspace)
 })
 
+test('Backquote 2', () => {
+  expect(GetKeyCode.getKeyCode(Key.Backquote2)).toBe(KeyCode.Backquote)
+})
+
 test('Tab', () => {
   expect(GetKeyCode.getKeyCode(Key.Tab)).toBe(KeyCode.Tab)
 })
