@@ -167,6 +167,7 @@ export const getKeyCode = (key: string): number => {
     case Key.Slash:
       return KeyCode.Slash
     case Key.Backquote:
+    case Key.Backquote2:
       return KeyCode.Backquote
     case Key.BracketLeft:
       return KeyCode.BracketLeft
