@@ -3,8 +3,44 @@ import * as VirtualDomElements from '../VirtualDomElements/VirtualDomElements.ts
 
 export const getElementTag = (type: number): string => {
   switch (type) {
+    case VirtualDomElements.A:
+      return ElementTag.A
+    case VirtualDomElements.Article:
+      return ElementTag.Article
+    case VirtualDomElements.Aside:
+      return ElementTag.Aside
     case VirtualDomElements.Audio:
       return ElementTag.Audio
+    case VirtualDomElements.Br:
+      return ElementTag.Br
+    case VirtualDomElements.Button:
+      return ElementTag.Button
+    case VirtualDomElements.Cite:
+      return ElementTag.Cite
+    case VirtualDomElements.Code:
+      return ElementTag.Code
+    case VirtualDomElements.Col:
+      return ElementTag.Col
+    case VirtualDomElements.ColGroup:
+      return ElementTag.ColGroup
+    case VirtualDomElements.Data:
+      return ElementTag.Data
+    case VirtualDomElements.Dd:
+      return ElementTag.Dd
+    case VirtualDomElements.Del:
+      return ElementTag.Del
+    case VirtualDomElements.Div:
+      return ElementTag.Div
+    case VirtualDomElements.Dl:
+      return ElementTag.Dl
+    case VirtualDomElements.Dt:
+      return ElementTag.Dt
+    case VirtualDomElements.Figcaption:
+      return ElementTag.Figcaption
+    case VirtualDomElements.Figure:
+      return ElementTag.Figure
+    case VirtualDomElements.Footer:
+      return ElementTag.Footer
     case VirtualDomElements.H1:
       return ElementTag.H1
     case VirtualDomElements.H2:
@@ -17,100 +53,64 @@ export const getElementTag = (type: number): string => {
       return ElementTag.H5
     case VirtualDomElements.H6:
       return ElementTag.H6
-    case VirtualDomElements.Div:
-      return ElementTag.Div
-    case VirtualDomElements.Kbd:
-      return ElementTag.Kbd
-    case VirtualDomElements.Table:
-      return ElementTag.Table
-    case VirtualDomElements.TBody:
-      return ElementTag.TBody
-    case VirtualDomElements.Th:
-      return ElementTag.Th
-    case VirtualDomElements.Td:
-      return ElementTag.Td
-    case VirtualDomElements.THead:
-      return ElementTag.THead
-    case VirtualDomElements.Tr:
-      return ElementTag.Tr
-    case VirtualDomElements.Input:
-      return ElementTag.Input
-    case VirtualDomElements.ColGroup:
-      return ElementTag.ColGroup
-    case VirtualDomElements.Col:
-      return ElementTag.Col
-    case VirtualDomElements.Button:
-      return ElementTag.Button
-    case VirtualDomElements.Span:
-      return ElementTag.Span
+    case VirtualDomElements.Header:
+      return ElementTag.Header
+    case VirtualDomElements.Hr:
+      return ElementTag.Hr
     case VirtualDomElements.I:
       return ElementTag.I
     case VirtualDomElements.Img:
       return ElementTag.Img
+    case VirtualDomElements.Input:
+      return ElementTag.Input
     case VirtualDomElements.Ins:
       return ElementTag.Ins
-    case VirtualDomElements.Del:
-      return ElementTag.Del
-    case VirtualDomElements.Article:
-      return ElementTag.Article
-    case VirtualDomElements.Aside:
-      return ElementTag.Aside
-    case VirtualDomElements.Footer:
-      return ElementTag.Footer
-    case VirtualDomElements.Header:
-      return ElementTag.Header
-    case VirtualDomElements.Nav:
-      return ElementTag.Nav
-    case VirtualDomElements.Section:
-      return ElementTag.Section
-    case VirtualDomElements.Search:
-      return ElementTag.Search
-    case VirtualDomElements.Dd:
-      return ElementTag.Dd
-    case VirtualDomElements.Dl:
-      return ElementTag.Dl
-    case VirtualDomElements.Figcaption:
-      return ElementTag.Figcaption
-    case VirtualDomElements.Figure:
-      return ElementTag.Figure
-    case VirtualDomElements.Hr:
-      return ElementTag.Hr
+    case VirtualDomElements.Kbd:
+      return ElementTag.Kbd
+    case VirtualDomElements.Label:
+      return ElementTag.Label
     case VirtualDomElements.Li:
       return ElementTag.Li
+    case VirtualDomElements.Nav:
+      return ElementTag.Nav
     case VirtualDomElements.Ol:
       return ElementTag.Ol
+    case VirtualDomElements.Option:
+      return ElementTag.Option
     case VirtualDomElements.P:
       return ElementTag.P
     case VirtualDomElements.Pre:
       return ElementTag.Pre
-    case VirtualDomElements.A:
-      return ElementTag.A
-    case VirtualDomElements.Br:
-      return ElementTag.Br
-    case VirtualDomElements.Cite:
-      return ElementTag.Cite
-    case VirtualDomElements.Data:
-      return ElementTag.Data
-    case VirtualDomElements.Time:
-      return ElementTag.Time
+    case VirtualDomElements.Search:
+      return ElementTag.Search
+    case VirtualDomElements.Section:
+      return ElementTag.Section
+    case VirtualDomElements.Select:
+      return ElementTag.Select
+    case VirtualDomElements.Span:
+      return ElementTag.Span
+    case VirtualDomElements.Table:
+      return ElementTag.Table
+    case VirtualDomElements.TBody:
+      return ElementTag.TBody
+    case VirtualDomElements.Td:
+      return ElementTag.Td
+    case VirtualDomElements.TextArea:
+      return ElementTag.TextArea
     case VirtualDomElements.Tfoot:
       return ElementTag.Tfoot
+    case VirtualDomElements.Th:
+      return ElementTag.Th
+    case VirtualDomElements.THead:
+      return ElementTag.THead
+    case VirtualDomElements.Time:
+      return ElementTag.Time
+    case VirtualDomElements.Tr:
+      return ElementTag.Tr
     case VirtualDomElements.Ul:
       return ElementTag.Ul
     case VirtualDomElements.Video:
       return ElementTag.Video
-    case VirtualDomElements.TextArea:
-      return ElementTag.TextArea
-    case VirtualDomElements.Select:
-      return ElementTag.Select
-    case VirtualDomElements.Option:
-      return ElementTag.Option
-    case VirtualDomElements.Code:
-      return ElementTag.Code
-    case VirtualDomElements.Label:
-      return ElementTag.Label
-    case VirtualDomElements.Dt:
-      return ElementTag.Dt
     default:
       throw new Error(`element tag not found ${type}`)
   }
