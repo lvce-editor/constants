@@ -28,6 +28,7 @@ export const SearchProcessElectron = 2
 export const SharedProcess = 1492
 export const SourceActionWorker = 303
 export const SourceControlWorker = 66
+export const StatusBarWorker = 7201
 export const SyntaxHighlightingWorker = 3309
 export const TestWithPlaywrightCli = 6000
 export const TestWithPlaywrightWorker = 6001
