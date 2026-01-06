@@ -59,3 +59,5 @@ export const TitleBarContextMenu = 90
 export const InputContextMenu = 91
 
 export const SearchMatchContextMenu = 93
+
+export const SettingsFilter = 94
