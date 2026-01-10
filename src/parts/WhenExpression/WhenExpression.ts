@@ -61,3 +61,4 @@ export const FocusToggleReplace = 1020
 export const FocusViewletList = 27
 export const FocusSourceControlList = 450
 export const FocusExtensionDetailTabs = 451
+export const FocusExtensionsInput = 7000
