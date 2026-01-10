@@ -61,3 +61,5 @@ export const InputContextMenu = 91
 export const SearchMatchContextMenu = 93
 
 export const SettingsFilter = 94
+
+export const ExtensionSearchFilter = 95
