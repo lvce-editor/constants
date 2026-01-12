@@ -35,3 +35,4 @@ export const TestWithPlaywrightWorker = 6001
 export const TestWorker = 9001
 export const TextMeasurementWorker = 7011
 export const TextSearchWorker = 7010
+export const FileSearchWorker = 7013
