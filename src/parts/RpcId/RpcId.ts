@@ -1,3 +1,4 @@
+export const Cli = 6001
 export const ClipBoardProcess = 3401
 export const ClipBoardWorker = 3400
 export const ColorPickerWorker = 302
