@@ -1,7 +1,6 @@
 import { execa } from 'execa'
-import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises'
+import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { generateApiTypes } from './generateApiTypes.js'
 import { root } from './root.js'
 
 const dist = join(root, '.tmp', 'dist')
@@ -82,11 +81,6 @@ await cp(
     recursive: true,
   },
 )
-const dirents = await readdir(join(root, '.tmp', 'dist'), { recursive: true })
-const toRemove = dirents.filter((dirent) => dirent.endsWith('.d.ts'))
-await Promise.all(toRemove.map((item) => rm(join(root, '.tmp', 'dist', item))))
 
 await cp(join(root, 'README.md'), join(dist, 'README.md'))
 await cp(join(root, 'LICENSE'), join(dist, 'LICENSE'))
-
-await generateApiTypes()
