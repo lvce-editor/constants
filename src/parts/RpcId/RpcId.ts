@@ -43,3 +43,4 @@ export const TextMeasurementWorker = 7011
 export const TextSearchWorker = 7010
 export const TypescriptCompileProcess = 221
 export const MainAreaWorker = 82_221
+export const OpenerWorker = 4561
