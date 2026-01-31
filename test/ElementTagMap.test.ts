@@ -203,3 +203,9 @@ test('ElementTagMap - label', () => {
     ElementTags.Label,
   )
 })
+
+test('ElementTagMap - iframe', () => {
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Iframe)).toBe(
+    ElementTags.Iframe,
+  )
+})
