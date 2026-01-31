@@ -55,4 +55,5 @@ export const Option = 64
 export const Code = 65
 export const Label = 66
 export const Dt = 67
+export const Iframe = 68
 export const Reference = 100
