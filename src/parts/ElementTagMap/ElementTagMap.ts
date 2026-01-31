@@ -59,6 +59,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Hr
     case VirtualDomElements.I:
       return ElementTag.I
+    case VirtualDomElements.Iframe:
+      return ElementTag.Iframe
     case VirtualDomElements.Img:
       return ElementTag.Img
     case VirtualDomElements.Input:
