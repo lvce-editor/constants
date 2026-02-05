@@ -56,4 +56,7 @@ export const Code = 65
 export const Label = 66
 export const Dt = 67
 export const Iframe = 68
+export const Main = 69
+export const Strong = 70
+export const Em = 71
 export const Reference = 100
