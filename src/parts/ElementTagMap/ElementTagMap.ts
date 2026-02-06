@@ -113,6 +113,16 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Ul
     case VirtualDomElements.Video:
       return ElementTag.Video
+    case VirtualDomElements.Style:
+      return ElementTag.Style
+    case VirtualDomElements.Html:
+      return ElementTag.Html
+    case VirtualDomElements.Head:
+      return ElementTag.Head
+    case VirtualDomElements.Title:
+      return ElementTag.Title
+    case VirtualDomElements.Meta:
+      return ElementTag.Meta
     default:
       throw new Error(`element tag not found ${type}`)
   }
