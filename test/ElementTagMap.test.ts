@@ -209,3 +209,21 @@ test('ElementTagMap - iframe', () => {
     ElementTags.Iframe,
   )
 })
+
+test('ElementTagMap - maps document elements', () => {
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Style)).toBe(
+    ElementTags.Style,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Html)).toBe(
+    ElementTags.Html,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Head)).toBe(
+    ElementTags.Head,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Title)).toBe(
+    ElementTags.Title,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Meta)).toBe(
+    ElementTags.Meta,
+  )
+})

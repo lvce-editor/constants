@@ -53,10 +53,14 @@ export const getElementTag = (type: number): string => {
       return ElementTag.H5
     case VirtualDomElements.H6:
       return ElementTag.H6
+    case VirtualDomElements.Head:
+      return ElementTag.Head
     case VirtualDomElements.Header:
       return ElementTag.Header
     case VirtualDomElements.Hr:
       return ElementTag.Hr
+    case VirtualDomElements.Html:
+      return ElementTag.Html
     case VirtualDomElements.I:
       return ElementTag.I
     case VirtualDomElements.Iframe:
@@ -73,6 +77,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Label
     case VirtualDomElements.Li:
       return ElementTag.Li
+    case VirtualDomElements.Meta:
+      return ElementTag.Meta
     case VirtualDomElements.Nav:
       return ElementTag.Nav
     case VirtualDomElements.Ol:
@@ -91,6 +97,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Select
     case VirtualDomElements.Span:
       return ElementTag.Span
+    case VirtualDomElements.Style:
+      return ElementTag.Style
     case VirtualDomElements.Table:
       return ElementTag.Table
     case VirtualDomElements.TBody:
@@ -107,6 +115,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.THead
     case VirtualDomElements.Time:
       return ElementTag.Time
+    case VirtualDomElements.Title:
+      return ElementTag.Title
     case VirtualDomElements.Tr:
       return ElementTag.Tr
     case VirtualDomElements.Ul:
