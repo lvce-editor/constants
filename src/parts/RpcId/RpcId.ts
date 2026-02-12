@@ -46,3 +46,5 @@ export const TextSearchWorker = 7010
 export const TypescriptCompileProcess = 221
 export const PreviewWorker = 3211
 export const PreviewSandBoxWorker = 3212
+export const GithubWorker = 4444
+export const TemplateWorker = 4445
