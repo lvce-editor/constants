@@ -1,3 +1,4 @@
+export const ChatNetworkWorker = 6002
 export const Cli = 6001
 export const ClipBoardProcess = 3401
 export const ClipBoardWorker = 3400
