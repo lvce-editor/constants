@@ -65,4 +65,5 @@ export const Head = 74
 export const Title = 75
 export const Meta = 76
 export const Canvas = 77
+export const Form = 78
 export const Reference = 100
