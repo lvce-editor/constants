@@ -101,6 +101,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Select
     case VirtualDomElements.Span:
       return ElementTag.Span
+    case VirtualDomElements.Strong:
+      return ElementTag.Strong
     case VirtualDomElements.Style:
       return ElementTag.Style
     case VirtualDomElements.Table:
