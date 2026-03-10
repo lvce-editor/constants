@@ -43,6 +43,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Figure
     case VirtualDomElements.Footer:
       return ElementTag.Footer
+    case VirtualDomElements.Form:
+      return ElementTag.Form
     case VirtualDomElements.H1:
       return ElementTag.H1
     case VirtualDomElements.H2:
