@@ -37,6 +37,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Dl
     case VirtualDomElements.Dt:
       return ElementTag.Dt
+    case VirtualDomElements.Em:
+      return ElementTag.Em
     case VirtualDomElements.Figcaption:
       return ElementTag.Figcaption
     case VirtualDomElements.Figure:
