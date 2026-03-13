@@ -2,6 +2,7 @@ export const ChatNetworkWorker = 6002
 export const ChatStorageWorker = 6003
 export const ChatToolWorker = 6005
 export const ChatDebugWorker = 6006
+export const ChatMathWorker = 6007
 export const Cli = 6004
 export const ClipBoardProcess = 3401
 export const ClipBoardWorker = 3400
