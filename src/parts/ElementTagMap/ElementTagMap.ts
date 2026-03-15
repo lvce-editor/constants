@@ -11,6 +11,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Aside
     case VirtualDomElements.Audio:
       return ElementTag.Audio
+    case VirtualDomElements.BlockQuote:
+      return ElementTag.BlockQuote
     case VirtualDomElements.Br:
       return ElementTag.Br
     case VirtualDomElements.Button:
@@ -95,6 +97,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.P
     case VirtualDomElements.Pre:
       return ElementTag.Pre
+    case VirtualDomElements.Quote:
+      return ElementTag.Quote
     case VirtualDomElements.Search:
       return ElementTag.Search
     case VirtualDomElements.Section:
