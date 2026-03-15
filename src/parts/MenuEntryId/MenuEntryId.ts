@@ -65,3 +65,5 @@ export const SettingsFilter = 94
 export const ExtensionSearchFilter = 95
 
 export const LanguageModelsTable = 96
+
+export const Chat = 97
