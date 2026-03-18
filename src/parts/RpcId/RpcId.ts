@@ -5,6 +5,7 @@ export const ChatDebugWorker = 6006
 export const ChatMathWorker = 6007
 export const ChatCoordinatorWorker = 6008
 export const ChatMessageParsingWorker = 6009
+export const AuthWorker = 6010
 export const Cli = 6004
 export const ClipBoardProcess = 3401
 export const ClipBoardWorker = 3400
