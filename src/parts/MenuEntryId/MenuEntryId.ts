@@ -67,3 +67,11 @@ export const ExtensionSearchFilter = 95
 export const LanguageModelsTable = 96
 
 export const Chat = 97
+
+export const ChatList = 98
+
+export const ChatInput = 99
+
+export const ChatHeader = 100
+
+export const ChatWelcome = 101
