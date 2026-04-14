@@ -50,12 +50,12 @@
     }
   },
   "devDependencies": {
-    "@lvce-editor/eslint-config": "^8.1.0",
+    "@lvce-editor/eslint-config": "^8.2.0",
     "dts-bundle-generator": "^9.5.1",
     "eslint": "^10.2.0",
     "execa": "^9.6.1",
     "jest": "^30.3.0",
-    "prettier": "^3.8.1",
+    "prettier": "^3.8.2",
     "ts-jest": "^29.4.9",
     "typescript": "^6.0.2"
   }
