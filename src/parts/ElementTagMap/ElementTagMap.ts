@@ -85,6 +85,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Label
     case VirtualDomElements.Li:
       return ElementTag.Li
+    case VirtualDomElements.Main:
+      return ElementTag.Main
     case VirtualDomElements.Meta:
       return ElementTag.Meta
     case VirtualDomElements.Nav:
