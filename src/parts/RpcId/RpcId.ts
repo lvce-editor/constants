@@ -1,11 +1,12 @@
+export const AuthWorker = 6010
+export const ChatCoordinatorWorker = 6008
+export const ChatDebugWorker = 6006
+export const ChatMathWorker = 6007
+export const ChatMessageParsingWorker = 6009
 export const ChatNetworkWorker = 6002
 export const ChatStorageWorker = 6003
 export const ChatToolWorker = 6005
-export const ChatDebugWorker = 6006
-export const ChatMathWorker = 6007
-export const ChatCoordinatorWorker = 6008
-export const ChatMessageParsingWorker = 6009
-export const AuthWorker = 6010
+export const ChatViewWorker = 6020
 export const Cli = 6004
 export const ClipBoardProcess = 3401
 export const ClipBoardWorker = 3400
