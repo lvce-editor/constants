@@ -1,4 +1,5 @@
 export const AuthWorker = 6010
+export const AuthProcess = 6040
 export const BlobWorker = 19_000
 export const ChatCoordinatorWorker = 6008
 export const ChatDebugWorker = 6006
