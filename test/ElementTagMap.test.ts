@@ -149,6 +149,42 @@ test('ElementTagMap - maps media elements', () => {
   )
 })
 
+test('ElementTagMap - maps svg elements', () => {
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Svg)).toBe(
+    ElementTags.Svg,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.G)).toBe(
+    ElementTags.G,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Defs)).toBe(
+    ElementTags.Defs,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Circle)).toBe(
+    ElementTags.Circle,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Ellipse)).toBe(
+    ElementTags.Ellipse,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Line)).toBe(
+    ElementTags.Line,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Path)).toBe(
+    ElementTags.Path,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Polygon)).toBe(
+    ElementTags.Polygon,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Polyline)).toBe(
+    ElementTags.Polyline,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Rect)).toBe(
+    ElementTags.Rect,
+  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Use)).toBe(
+    ElementTags.Use,
+  )
+})
+
 test('ElementTagMap - maps inline elements', () => {
   expect(ElementTagMap.getElementTag(VirtualDomElements.A)).toBe(ElementTags.A)
   expect(ElementTagMap.getElementTag(VirtualDomElements.Br)).toBe(

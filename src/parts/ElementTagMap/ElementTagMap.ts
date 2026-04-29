@@ -19,6 +19,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Button
     case VirtualDomElements.Canvas:
       return ElementTag.Canvas
+    case VirtualDomElements.Circle:
+      return ElementTag.Circle
     case VirtualDomElements.Cite:
       return ElementTag.Cite
     case VirtualDomElements.Code:
@@ -31,6 +33,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Data
     case VirtualDomElements.Dd:
       return ElementTag.Dd
+    case VirtualDomElements.Defs:
+      return ElementTag.Defs
     case VirtualDomElements.Del:
       return ElementTag.Del
     case VirtualDomElements.Div:
@@ -39,6 +43,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Dl
     case VirtualDomElements.Dt:
       return ElementTag.Dt
+    case VirtualDomElements.Ellipse:
+      return ElementTag.Ellipse
     case VirtualDomElements.Em:
       return ElementTag.Em
     case VirtualDomElements.Figcaption:
@@ -49,6 +55,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Footer
     case VirtualDomElements.Form:
       return ElementTag.Form
+    case VirtualDomElements.G:
+      return ElementTag.G
     case VirtualDomElements.H1:
       return ElementTag.H1
     case VirtualDomElements.H2:
@@ -85,6 +93,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Label
     case VirtualDomElements.Li:
       return ElementTag.Li
+    case VirtualDomElements.Line:
+      return ElementTag.Line
     case VirtualDomElements.Main:
       return ElementTag.Main
     case VirtualDomElements.Meta:
@@ -97,10 +107,18 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Option
     case VirtualDomElements.P:
       return ElementTag.P
+    case VirtualDomElements.Path:
+      return ElementTag.Path
+    case VirtualDomElements.Polygon:
+      return ElementTag.Polygon
+    case VirtualDomElements.Polyline:
+      return ElementTag.Polyline
     case VirtualDomElements.Pre:
       return ElementTag.Pre
     case VirtualDomElements.Quote:
       return ElementTag.Quote
+    case VirtualDomElements.Rect:
+      return ElementTag.Rect
     case VirtualDomElements.Search:
       return ElementTag.Search
     case VirtualDomElements.Section:
@@ -113,6 +131,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Strong
     case VirtualDomElements.Style:
       return ElementTag.Style
+    case VirtualDomElements.Svg:
+      return ElementTag.Svg
     case VirtualDomElements.Table:
       return ElementTag.Table
     case VirtualDomElements.TBody:
@@ -135,6 +155,8 @@ export const getElementTag = (type: number): string => {
       return ElementTag.Tr
     case VirtualDomElements.Ul:
       return ElementTag.Ul
+    case VirtualDomElements.Use:
+      return ElementTag.Use
     case VirtualDomElements.Video:
       return ElementTag.Video
     default:
