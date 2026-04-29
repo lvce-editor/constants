@@ -153,9 +153,7 @@ test('ElementTagMap - maps svg elements', () => {
   expect(ElementTagMap.getElementTag(VirtualDomElements.Svg)).toBe(
     ElementTags.Svg,
   )
-  expect(ElementTagMap.getElementTag(VirtualDomElements.G)).toBe(
-    ElementTags.G,
-  )
+  expect(ElementTagMap.getElementTag(VirtualDomElements.G)).toBe(ElementTags.G)
   expect(ElementTagMap.getElementTag(VirtualDomElements.Defs)).toBe(
     ElementTags.Defs,
   )
