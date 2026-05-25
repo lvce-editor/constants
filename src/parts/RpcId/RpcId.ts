@@ -1,5 +1,5 @@
-export const AuthWorker = 6010
 export const AuthProcess = 6040
+export const AuthWorker = 6010
 export const BlobWorker = 19_000
 export const ChatCoordinatorWorker = 6008
 export const ChatDebugWorker = 6006
@@ -47,6 +47,7 @@ export const RendererProcess = 1670
 export const RendererWorker = 1
 export const SearchProcess = 77
 export const SearchProcessElectron = 2
+export const SettingsWorker = 11_010
 export const SharedProcess = 1492
 export const SourceActionWorker = 303
 export const SourceControlWorker = 66
