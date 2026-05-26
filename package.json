@@ -50,13 +50,13 @@
     }
   },
   "devDependencies": {
-    "@lvce-editor/eslint-config": "^10.0.0",
+    "@lvce-editor/eslint-config": "^10.5.0",
     "dts-bundle-generator": "^9.5.1",
-    "eslint": "^10.3.0",
+    "eslint": "^10.4.0",
     "execa": "^9.6.1",
     "jest": "^30.4.2",
     "prettier": "^3.8.3",
-    "ts-jest": "^29.4.9",
+    "ts-jest": "^29.4.11",
     "typescript": "^6.0.3"
   }
 }
