@@ -41,6 +41,7 @@ export const PreviewSandBoxWorker = 3212
 export const PreviewWorker = 3211
 export const ProblemsWorker = 3403
 export const ProcessExplorerRenderer = 33
+export const ProcessExplorerNode = 10_001
 export const QuickPickWorker = 10_000
 export const RenameWorker = 9004
 export const RendererProcess = 1670
