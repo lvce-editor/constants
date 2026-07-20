@@ -14,7 +14,9 @@ test('getWhenExpressionText - FocusEditor', () => {
 })
 
 test('getWhenExpressionText - FocusSourceActions', () => {
-  expect(GetWhenExpressionText.getWhenExpressionText(38)).toBe('FocusSourceActions')
+  expect(GetWhenExpressionText.getWhenExpressionText(38)).toBe(
+    'FocusSourceActions',
+  )
 })
 
 test('getWhenExpressionText - invalid index', () => {
