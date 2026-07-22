@@ -60,5 +60,6 @@ export const TestWithPlaywrightCli = 6000
 export const TestWithPlaywrightWorker = 6001
 export const TestWorker = 9001
 export const TextMeasurementWorker = 7011
+export const TextSearchViewWorker = 7012
 export const TextSearchWorker = 7010
 export const TypescriptCompileProcess = 221
