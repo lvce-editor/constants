@@ -24,6 +24,7 @@ export const ExtensionDetailWorker = 3402
 export const ExtensionHostHelperProcess = 3
 export const ExtensionHostWorker = 44
 export const ExtensionManagementWorker = 9006
+export const FilePermissionProcess = 7015
 export const FileSearchWorker = 7013
 export const FileSystemProcess = 210
 export const FileSystemWorker = 209
