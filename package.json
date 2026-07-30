@@ -14,7 +14,7 @@
   "types": "src/index.d.ts",
   "scripts": {
     "build": "node scripts/build.js",
-    "lint": "eslint .",
+    "lint": "eslint . && prettier --check . && knip --no-config-hints",
     "test": "node --unhandled-rejections=warn --experimental-vm-modules ./node_modules/jest/bin/jest.js --detectOpenHandles --forceExit",
     "test:watch": "node --unhandled-rejections=warn --experimental-vm-modules ./node_modules/jest/bin/jest.js --watch",
     "type-check": "tsc"
@@ -50,11 +50,12 @@
     }
   },
   "devDependencies": {
+    "@jest/globals": "^30.4.1",
     "@lvce-editor/eslint-config": "^17.6.0",
-    "dts-bundle-generator": "^9.5.1",
     "eslint": "^10.8.0",
     "execa": "^9.6.1",
     "jest": "^30.4.2",
+    "knip": "^6.29.0",
     "prettier": "^3.8.4",
     "ts-jest": "^29.4.11",
     "typescript": "^6.0.3"
