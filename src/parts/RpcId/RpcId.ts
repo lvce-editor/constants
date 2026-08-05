@@ -16,6 +16,7 @@ export const ColorPickerWorker = 302
 export const CompletionWorker = 301
 export const DebugWorker = 55
 export const DialogWorker = 7014
+export const DragAndDropWorker = 3404
 export const EditorWorker = 99
 export const EmbedsProcess = 207
 export const EmbedsWorker = 208
