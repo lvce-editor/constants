@@ -58,6 +58,7 @@ const elementTagMap: Record<number, string> = {
   [VirtualDomElements.Polygon]: ElementTag.Polygon,
   [VirtualDomElements.Polyline]: ElementTag.Polyline,
   [VirtualDomElements.Pre]: ElementTag.Pre,
+  [VirtualDomElements.Progress]: ElementTag.Progress,
   [VirtualDomElements.Quote]: ElementTag.Quote,
   [VirtualDomElements.Rect]: ElementTag.Rect,
   [VirtualDomElements.Search]: ElementTag.Search,

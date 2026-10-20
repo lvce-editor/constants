@@ -149,6 +149,12 @@ test('ElementTagMap - maps media elements', () => {
   )
 })
 
+test('ElementTagMap - maps progress elements', () => {
+  expect(ElementTagMap.getElementTag(VirtualDomElements.Progress)).toBe(
+    ElementTags.Progress,
+  )
+})
+
 test('ElementTagMap - maps svg elements', () => {
   expect(ElementTagMap.getElementTag(VirtualDomElements.Svg)).toBe(
     ElementTags.Svg,
