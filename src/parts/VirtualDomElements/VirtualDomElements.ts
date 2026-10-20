@@ -79,4 +79,5 @@ export const Polyline = 88
 export const Rect = 89
 export const Svg = 90
 export const Use = 91
+export const Progress = 92
 export const Reference = 100
